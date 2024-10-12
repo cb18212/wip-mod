@@ -1,0 +1,44 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.model.idle": {
+			"loop": true,
+			"animation_length": 8,
+			"bones": {
+				"ringbase": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"8.0": {
+							"vector": [360, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"ringspin": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"8.0": {
+							"vector": [0, "90*8", 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"ringspin2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"8.0": {
+							"vector": [0, "180*2", 0],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		}
+	}
+}

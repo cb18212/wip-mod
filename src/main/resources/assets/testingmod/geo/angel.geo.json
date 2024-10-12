@@ -1,1 +1,83 @@
-{"meta":{"format_version":"4.10","model_format":"animated_entity_model","box_uv":false},"name":"angel","model_identifier":"","visible_box":[1,1,0],"variable_placeholders":"","variable_placeholder_buttons":[],"timeline_setups":[],"unhandled_root_fields":{},"resolution":{"width":32,"height":32},"elements":[{"name":"eye","box_uv":false,"rescale":false,"locked":false,"light_emission":0,"render_order":"default","allow_mirror_modeling":true,"from":[-8,0,-8],"to":[8,16,8],"autouv":0,"color":2,"origin":[0,0,0],"faces":{"north":{"uv":[0,0,4,4],"texture":0},"east":{"uv":[0,4,4,8],"texture":0},"south":{"uv":[4,0,8,4],"texture":0},"west":{"uv":[4,4,8,8],"texture":0},"up":{"uv":[4,12,0,8],"texture":0},"down":{"uv":[12,0,8,4],"texture":0}},"type":"cube","uuid":"7b2b9d74-f8ad-469a-62f3-debb6b70ec65"},{"name":"ring1","box_uv":false,"rescale":false,"locked":false,"light_emission":0,"render_order":"default","allow_mirror_modeling":true,"from":[-16,5,-16],"to":[16,12,16],"autouv":0,"color":2,"origin":[0,8.5,0],"faces":{"north":{"uv":[16,22.999999999999996,24,25],"texture":0},"east":{"uv":[16,22.999999999999996,24,25],"texture":0},"south":{"uv":[16,22.999999999999996,24,25],"texture":0},"west":{"uv":[16,22.999999999999996,24,25],"texture":0},"up":{"uv":[32,16,31.5,15.5],"texture":0},"down":{"uv":[32,15.5,31.5,16],"texture":0}},"type":"cube","uuid":"be7267ff-788d-50b2-9ec6-086e0a8a56f4"},{"name":"ring2","box_uv":false,"rescale":false,"locked":false,"light_emission":0,"render_order":"default","allow_mirror_modeling":true,"from":[-16,5,-16],"to":[16,12,16],"autouv":0,"color":2,"origin":[0,8.5,0],"faces":{"north":{"uv":[16,22.999999999999996,24,25],"texture":0},"east":{"uv":[16,22.999999999999996,24,25],"texture":0},"south":{"uv":[16,22.999999999999996,24,25],"texture":0},"west":{"uv":[16,22.999999999999996,24,25],"texture":0},"up":{"uv":[32,16,31.5,15.5],"texture":0},"down":{"uv":[32,15.5,31.5,16],"texture":0}},"type":"cube","uuid":"616c7988-3364-6e7b-206b-192b6f41b6d2"}],"outliner":[{"name":"body","origin":[0,0,0],"color":0,"uuid":"fa21e564-c2f7-f712-9f6e-0bd76db75b7e","export":true,"mirror_uv":false,"isOpen":true,"locked":false,"visibility":true,"autouv":0,"children":["7b2b9d74-f8ad-469a-62f3-debb6b70ec65"]},{"name":"ringbase","origin":[0,8,0],"rotation":[-17.5,0,0],"color":0,"uuid":"2055c018-e4cb-fee0-086c-6462d6e7fc62","export":true,"mirror_uv":false,"isOpen":true,"locked":false,"visibility":true,"autouv":0,"children":[{"name":"ringspin","origin":[0,8,0],"color":0,"uuid":"484ebf57-2246-6781-5334-941e26a788d5","export":true,"mirror_uv":false,"isOpen":true,"locked":false,"visibility":true,"autouv":0,"children":["be7267ff-788d-50b2-9ec6-086e0a8a56f4"]}]},{"name":"ringbase2","origin":[0,8,0],"rotation":[0,2.5,0],"color":0,"uuid":"6134fd8d-4ca6-2cff-ba50-271663d3eb76","export":true,"mirror_uv":false,"isOpen":true,"locked":false,"visibility":true,"autouv":0,"children":[{"name":"ringspin2","origin":[0,8,0],"color":0,"uuid":"32e1ed5e-a0ff-9fe3-ede5-4b06acf04492","export":true,"mirror_uv":false,"isOpen":true,"locked":false,"visibility":true,"autouv":0,"children":["616c7988-3364-6e7b-206b-192b6f41b6d2"]}]}],"textures":[{"path":"E:\\projects\\minecraft modding\\mymod\\src\\main\\resources\\assets\\testingmod\\textures\\entities\\angel\\texture.png","name":"texture.png","folder":"","namespace":"","id":"0","group":"","width":128,"height":128,"uv_width":32,"uv_height":32,"particle":true,"use_as_default":false,"layers_enabled":false,"sync_to_project":"","render_mode":"default","render_sides":"auto","frame_time":1,"frame_order_type":"loop","frame_order":"","frame_interpolate":false,"visible":true,"internal":true,"saved":true,"uuid":"10ac889d-9c94-6ac3-133c-705176a7a23b","relative_path":"../textures/entities/angel/texture.png","source":"data:image/png;base64,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"}],"animations":[{"uuid":"63d1c413-1742-6251-934c-a3e3413a5aff","name":"animation.model.idle","loop":"loop","override":false,"length":8,"snapping":24,"selected":true,"saved":false,"path":"E:\\projects\\minecraft modding\\mymod\\src\\main\\resources\\assets\\testingmod\\animations\\angel\\model.animation.idle.json","anim_time_update":"","blend_weight":"","start_delay":"","loop_delay":"","animators":{"2055c018-e4cb-fee0-086c-6462d6e7fc62":{"name":"ringbase","type":"bone","keyframes":[{"channel":"rotation","data_points":[{"x":"0\n","y":"0","z":"0"}],"uuid":"5370bd80-0201-f88f-e7f0-b7296f84f79f","time":0,"color":-1,"interpolation":"linear"},{"channel":"rotation","data_points":[{"x":"360 ","y":"0","z":0}],"uuid":"18d090bf-24e9-a116-196a-d21c81599659","time":8,"color":-1,"interpolation":"linear","easing":"linear"}]},"484ebf57-2246-6781-5334-941e26a788d5":{"name":"ringspin","type":"bone","keyframes":[{"channel":"rotation","data_points":[{"x":"0\n","y":"0","z":"0"}],"uuid":"15be23aa-bbba-1504-e348-ca552749a56c","time":0,"color":-1,"interpolation":"linear"},{"channel":"rotation","data_points":[{"x":"0","y":"90*8\n","z":0}],"uuid":"b1edf829-ba0b-7c9a-54b2-fe7871684491","time":8,"color":-1,"interpolation":"linear","easing":"linear"}]},"32e1ed5e-a0ff-9fe3-ede5-4b06acf04492":{"name":"ringspin2","type":"bone","keyframes":[{"channel":"rotation","data_points":[{"x":"0\n","y":"0","z":"0"}],"uuid":"bffd0f07-dc5b-5856-6a1d-5785cf1adc2e","time":0,"color":-1,"interpolation":"linear"},{"channel":"rotation","data_points":[{"x":"\n","y":"180*2","z":0}],"uuid":"aa791023-34d1-ec05-c888-5135b9b35c43","time":8,"color":-1,"interpolation":"linear","easing":"linear"}]}}}],"geckoSettings":{"formatVersion":2,"modSDK":"Forge 1.12 - 1.16","objectType":"OBJ_TYPE_ENTITY","entityType":"Entity","javaPackage":"com.example.mod","animFileNamespace":"MODID","animFilePath":"animations/ANIMATIONFILE.json"}}
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 16, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [4, 4]},
+								"east": {"uv": [0, 4], "uv_size": [4, 4]},
+								"south": {"uv": [4, 0], "uv_size": [4, 4]},
+								"west": {"uv": [4, 4], "uv_size": [4, 4]},
+								"up": {"uv": [0, 8], "uv_size": [4, 4]},
+								"down": {"uv": [8, 4], "uv_size": [4, -4]}
+							}
+						}
+					]
+				},
+				{
+					"name": "ringbase",
+					"pivot": [0, 8, 0],
+					"rotation": [17.5, 0, 0]
+				},
+				{
+					"name": "ringspin",
+					"parent": "ringbase",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{
+							"origin": [-16, 5, -16],
+							"size": [32, 7, 32],
+							"uv": {
+								"north": {"uv": [16, 23], "uv_size": [8, 2]},
+								"east": {"uv": [16, 23], "uv_size": [8, 2]},
+								"south": {"uv": [16, 23], "uv_size": [8, 2]},
+								"west": {"uv": [16, 23], "uv_size": [8, 2]},
+								"up": {"uv": [31.5, 15.5], "uv_size": [0.5, 0.5]},
+								"down": {"uv": [31.5, 16], "uv_size": [0.5, -0.5]}
+							}
+						}
+					]
+				},
+				{
+					"name": "ringbase2",
+					"pivot": [0, 8, 0],
+					"rotation": [0, -2.5, 0]
+				},
+				{
+					"name": "ringspin2",
+					"parent": "ringbase2",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{
+							"origin": [-16, 5, -16],
+							"size": [32, 7, 32],
+							"uv": {
+								"north": {"uv": [16, 23], "uv_size": [8, 2]},
+								"east": {"uv": [16, 23], "uv_size": [8, 2]},
+								"south": {"uv": [16, 23], "uv_size": [8, 2]},
+								"west": {"uv": [16, 23], "uv_size": [8, 2]},
+								"up": {"uv": [31.5, 15.5], "uv_size": [0.5, 0.5]},
+								"down": {"uv": [31.5, 16], "uv_size": [0.5, -0.5]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

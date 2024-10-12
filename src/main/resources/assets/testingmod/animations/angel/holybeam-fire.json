@@ -1,0 +1,34 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"fire": {
+			"animation_length": 1,
+			"bones": {
+				"root": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, -1000, 0],
+							"easing": "easeInOutSine"
+						}
+					},
+					"scale": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [1, 5, 1],
+							"easing": "easeInElastic",
+							"easingArgs": [5]
+						},
+						"1.0": {
+							"vector": [0.2, 3, 0.2]
+						}
+					}
+				}
+			}
+		}
+	}
+}

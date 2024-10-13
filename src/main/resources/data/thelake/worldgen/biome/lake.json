@@ -22,17 +22,27 @@
 	"features": [
 		[],
 		[
+			"minecraft:lake_lava_underground",
+			"minecraft:lake_lava_surface"
+		],
+		[
 			"minecraft:amethyst_geode"
 		],
 		[
-			"minecraft:vegetation_patch",
-			"minecraft:waterlogged_vegetation_patch"
+			"minecraft:monster_room",
+			"minecraft:monster_room_deep"
 		],
 		[],
 		[],
 		[
 			"minecraft:ore_dirt",
 			"minecraft:ore_gravel",
+			"minecraft:ore_granite_upper",
+			"minecraft:ore_granite_lower",
+			"minecraft:ore_diorite_upper",
+			"minecraft:ore_diorite_lower",
+			"minecraft:ore_andesite_upper",
+			"minecraft:ore_andesite_lower",
 			"minecraft:ore_tuff",
 			"minecraft:ore_coal_upper",
 			"minecraft:ore_coal_lower",
@@ -166,6 +176,12 @@
 			{
 				"type": "minecraft:squid",
 				"maxCount": 4,
+				"minCount": 1,
+				"weight": 1
+			},
+			{
+				"type": "minecraft:dolphin",
+				"maxCount": 2,
 				"minCount": 1,
 				"weight": 1
 			}

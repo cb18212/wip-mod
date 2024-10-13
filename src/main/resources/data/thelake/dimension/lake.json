@@ -1,8 +1,8 @@
 {
-  "type": "minecraft:overworld",
+  "type": "thelake:lake",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "minecraft:overworld",
+    "settings": "thelake:lake",
     "biome_source": {
       "type": "minecraft:fixed",
       "biome": "thelake:lake"

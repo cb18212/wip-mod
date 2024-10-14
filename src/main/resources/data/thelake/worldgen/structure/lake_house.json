@@ -17,17 +17,76 @@
 	},
 	"step": "surface_structures",
 	"start_pool": {
-		"fallback": "minecraft:swamp_hut",
+		"fallback": "minecraft:empty",
 		"elements": [
 			{
 				"weight": 1.0,
 				"element": {
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
-					"location": "",
-					"processors": {}
+					"location": "thelake:base_house",
+					"processors": []
+				}
+			},
+			{
+				"weight": 1.0,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "thelake:ruined_house",
+					"processors": []
+				}
+			},
+			{
+				"weight": 1.0,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "thelake:ruined_house2",
+					"processors": []
+				}
+			},
+			{
+				"weight": 1.0,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "thelake:view_house",
+					"processors": []
+				}
+			},
+			{
+				"weight": 1.0,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "thelake:view_ruined_house",
+					"processors": []
+				}
+			},
+			{
+				"weight": 1.0,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "thelake:windows_house",
+					"processors": []
+				}
+			},
+			{
+				"weight": 1.0,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "thelake:windows_ruined_house",
+					"processors": []
 				}
 			}
 		]
-	}
+	},
+	"size": 1,
+	"start_height": 60,
+	"max_distance_from_center": 128,
+	"use_expansion_hack": false
+
 }

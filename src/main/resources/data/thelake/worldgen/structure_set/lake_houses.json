@@ -1,27 +1,7 @@
 {
 	"structures": [
 		{
-			"structure": "",
-			"weight": 1
-		},
-		{
-			"structure": "",
-			"weight": 1
-		},
-		{
-			"structure": "",
-			"weight": 1
-		},
-		{
-			"structure": "",
-			"weight": 1
-		},
-		{
-			"structure": "",
-			"weight": 1
-		},
-		{
-			"structure": "",
+			"structure": "thelake:lake_house",
 			"weight": 1
 		}
 	],
@@ -29,6 +9,6 @@
 		"type": "minecraft:random_spread",
 		"salt": 45,
 		"separation": 5,
-		"spacing": 5
+		"spacing": 8
 	}
 }

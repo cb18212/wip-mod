@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:jigsaw",
 	"biomes": "thelake:lake",
-	"terrain_adaptation": "none",
+	"terrain_adaptation": "beard_thin",
 	"spawn_overrides": {
 		"creature": {
 			"bounding_box": "piece",

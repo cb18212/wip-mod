@@ -31,7 +31,7 @@
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
 					"location": "thelake:base_house",
-					"processors": []
+					"processors": "thelake:lake_house_processor"
 				}
 			},
 			{
@@ -40,7 +40,7 @@
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
 					"location": "thelake:ruined_house",
-					"processors": []
+					"processors": "thelake:lake_house_processor"
 				}
 			},
 			{
@@ -49,7 +49,7 @@
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
 					"location": "thelake:ruined_house2",
-					"processors": []
+					"processors": "thelake:lake_house_processor"
 				}
 			},
 			{
@@ -58,7 +58,7 @@
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
 					"location": "thelake:view_house",
-					"processors": []
+					"processors": "thelake:lake_house_processor"
 				}
 			},
 			{
@@ -67,7 +67,7 @@
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
 					"location": "thelake:view_ruined_house",
-					"processors": []
+					"processors": "thelake:lake_house_processor"
 				}
 			},
 			{
@@ -76,7 +76,7 @@
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
 					"location": "thelake:windows_house",
-					"processors": []
+					"processors": "thelake:lake_house_processor"
 				}
 			},
 			{
@@ -85,7 +85,7 @@
 					"element_type": "minecraft:single_pool_element",
 					"projection": "rigid",
 					"location": "thelake:windows_ruined_house",
-					"processors": []
+					"processors": "thelake:lake_house_processor"
 				}
 			}
 		]

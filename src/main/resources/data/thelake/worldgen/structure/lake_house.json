@@ -28,7 +28,7 @@
 			{
 				"weight": 1.0,
 				"element": {
-					"element_type": "minecraft:single_pool_element",
+					"element_type": "minecraft:legacy_single_pool_element",
 					"projection": "rigid",
 					"location": "thelake:base_house",
 					"processors": []
@@ -37,7 +37,7 @@
 			{
 				"weight": 1.0,
 				"element": {
-					"element_type": "minecraft:single_pool_element",
+					"element_type": "minecraft:legacy_single_pool_element",
 					"projection": "rigid",
 					"location": "thelake:ruined_house",
 					"processors": []
@@ -46,7 +46,7 @@
 			{
 				"weight": 1.0,
 				"element": {
-					"element_type": "minecraft:single_pool_element",
+					"element_type": "minecraft:legacy_single_pool_element",
 					"projection": "rigid",
 					"location": "thelake:ruined_house2",
 					"processors": []
@@ -55,7 +55,7 @@
 			{
 				"weight": 1.0,
 				"element": {
-					"element_type": "minecraft:single_pool_element",
+					"element_type": "minecraft:legacy_single_pool_element",
 					"projection": "rigid",
 					"location": "thelake:view_house",
 					"processors": []
@@ -64,7 +64,7 @@
 			{
 				"weight": 1.0,
 				"element": {
-					"element_type": "minecraft:single_pool_element",
+					"element_type": "minecraft:legacy_single_pool_element",
 					"projection": "rigid",
 					"location": "thelake:view_ruined_house",
 					"processors": []
@@ -73,7 +73,7 @@
 			{
 				"weight": 1.0,
 				"element": {
-					"element_type": "minecraft:single_pool_element",
+					"element_type": "minecraft:legacy_single_pool_element",
 					"projection": "rigid",
 					"location": "thelake:windows_house",
 					"processors": []
@@ -82,7 +82,7 @@
 			{
 				"weight": 1.0,
 				"element": {
-					"element_type": "minecraft:single_pool_element",
+					"element_type": "minecraft:legacy_single_pool_element",
 					"projection": "rigid",
 					"location": "thelake:windows_ruined_house",
 					"processors": []

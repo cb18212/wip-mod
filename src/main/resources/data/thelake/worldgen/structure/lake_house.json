@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:jigsaw",
-	"biomes": "thelake:lake",
+	"biomes": "#minecraft:is_forest",
 	"terrain_adaptation": "beard_thin",
 	"spawn_overrides": {
 		"creature": {

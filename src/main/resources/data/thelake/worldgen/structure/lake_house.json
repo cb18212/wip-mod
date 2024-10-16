@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:jigsaw",
-	"biomes": "thelake:lake",
-	"terrain_adaptation": "none",
+	"biomes": "#minecraft:is_forest",
+	"terrain_adaptation": "beard_thin",
 	"spawn_overrides": {
 		"creature": {
 			"bounding_box": "piece",
@@ -22,7 +22,74 @@
 		}
 	},
 	"step": "surface_structures",
-	"start_pool": "thelake:lake_house",
+	"start_pool": {
+		"fallback": "minecraft:empty",
+		"elements": [
+			{
+				"weight": 1.0,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "thelake:base_house",
+					"processors": "thelake:lake_house_processor"
+				}
+			},
+			{
+				"weight": 1.0,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "thelake:ruined_house",
+					"processors": "thelake:lake_house_processor"
+				}
+			},
+			{
+				"weight": 1.0,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "thelake:ruined_house2",
+					"processors": "thelake:lake_house_processor"
+				}
+			},
+			{
+				"weight": 1.0,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "thelake:view_house",
+					"processors": "thelake:lake_house_processor"
+				}
+			},
+			{
+				"weight": 1.0,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "thelake:view_ruined_house",
+					"processors": "thelake:lake_house_processor"
+				}
+			},
+			{
+				"weight": 1.0,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "thelake:windows_house",
+					"processors": "thelake:lake_house_processor"
+				}
+			},
+			{
+				"weight": 1.0,
+				"element": {
+					"element_type": "minecraft:single_pool_element",
+					"projection": "rigid",
+					"location": "thelake:windows_ruined_house",
+					"processors": "thelake:lake_house_processor"
+				}
+			}
+		]
+	},
 	"size": 1,
 	"start_height": {
 		"absolute": 62

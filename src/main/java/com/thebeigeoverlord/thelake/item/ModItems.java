@@ -1,6 +1,6 @@
-package com.thebeigeoverlord.testingmod.item;
+package com.thebeigeoverlord.thelake.item;
 
-import com.thebeigeoverlord.testingmod.TestingMod;
+import com.thebeigeoverlord.thelake.TestingMod;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

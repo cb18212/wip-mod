@@ -1,4 +1,4 @@
-package com.thebeigeoverlord.testingmod.entities;
+package com.thebeigeoverlord.thelake.entities;
 
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import software.bernie.geckolib.renderer.GeoEntityRenderer;

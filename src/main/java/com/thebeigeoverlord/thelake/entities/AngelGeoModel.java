@@ -1,12 +1,9 @@
-package com.thebeigeoverlord.testingmod.entities;
+package com.thebeigeoverlord.thelake.entities;
 
-import com.thebeigeoverlord.testingmod.TestingMod;
+import com.thebeigeoverlord.thelake.TestingMod;
 import net.minecraft.resources.ResourceLocation;
-import software.bernie.geckolib.GeckoLib;
 import software.bernie.geckolib.core.animatable.GeoAnimatable;
-import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
 import software.bernie.geckolib.model.GeoModel;
-import software.bernie.geckolib.util.GeckoLibUtil;
 
 public class AngelGeoModel extends GeoModel {
 	private final ResourceLocation model = new ResourceLocation(TestingMod.MODID, "geo/angel.geo.json");

@@ -1,13 +1,12 @@
-package com.thebeigeoverlord.testingmod.entities;
+package com.thebeigeoverlord.thelake.entities;
 
-import com.thebeigeoverlord.testingmod.TestingMod;
+import com.thebeigeoverlord.thelake.TestingMod;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import software.bernie.geckolib.renderer.GeoEntityRenderer;
 
 public class ModEntities {
 	public static final DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, TestingMod.MODID);

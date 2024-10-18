@@ -1,11 +1,15 @@
 package com.thebeigeoverlord.thelake;
 
 import com.mojang.logging.LogUtils;
+import com.thebeigeoverlord.thelake.blockentities.ModBlockEntities;
+import com.thebeigeoverlord.thelake.blocks.ModBlocks;
 import com.thebeigeoverlord.thelake.entities.Angel;
 import com.thebeigeoverlord.thelake.entities.AngelRenderer;
 import com.thebeigeoverlord.thelake.entities.ModEntities;
 import com.thebeigeoverlord.thelake.item.ModItems;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.BlockItem;
@@ -32,8 +36,8 @@ import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(TestingMod.MODID)
-public class TestingMod
+@Mod(TheLake.MODID)
+public class TheLake
 {
 	// Define mod id in a common place for everything to reference
 	public static final String MODID = "thelake";
@@ -41,16 +45,16 @@ public class TestingMod
 	private static final Logger LOGGER = LogUtils.getLogger();
 	// Create a Deferred Register to hold Blocks which will all be registered under the "examplemod" namespace
 
-	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
 	// Create a Deferred Register to hold Items which will all be registered under the "examplemod" namespace
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
-	public static final RegistryObject<Block> STRUT_BLOCK = BLOCKS.register("strut", () -> new Block(BlockBehaviour.Properties.of()));
-	public static final RegistryObject<Item> STRUT_BLOCK_ITEM = ITEMS.register("strut", () -> new BlockItem(STRUT_BLOCK.get(), new Item.Properties()));
-	public TestingMod()
+
+	public static final RegistryObject<Item> STRUT_BLOCK_ITEM = ITEMS.register("strut", () -> new BlockItem(ModBlocks.EXTENDING_PILLAR.get(), new Item.Properties()));
+	public TheLake()
 	{
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		BLOCKS.register(modEventBus);
+		ModBlocks.register(modEventBus);
+		ModBlockEntities.register(modEventBus);
 		ITEMS.register(modEventBus);
 		ModItems.register(modEventBus);
 		ModEntities.register(modEventBus);
@@ -90,19 +94,20 @@ public class TestingMod
 	@SubscribeEvent
 	public void onLivingDeath(LivingDeathEvent event)
 	{
-		Entity corpse = event.getEntity();
-		Level level = corpse.level();
-		System.out.println("Killed entity: " + corpse.getName().getString());
-		if (!level.isClientSide)
-		{
-			Entity ghost = EntityType.ALLAY.create(level);
-			if(ghost != null)
-			{
-				ghost.moveTo(corpse.blockPosition(),0.0f,0.0f);
-				level.addFreshEntity(ghost);
-			}
-
-		}
+		Minecraft.getInstance().player.sendSystemMessage(Component.literal("Chat messages work!"));
+//		Entity corpse = event.getEntity();
+//		Level level = corpse.level();
+//		System.out.println("Killed entity: " + corpse.getName().getString());
+//		if (!level.isClientSide)
+//		{
+//			Entity ghost = EntityType.ALLAY.create(level);
+//			if(ghost != null)
+//			{
+//				ghost.moveTo(corpse.blockPosition(),0.0f,0.0f);
+//				level.addFreshEntity(ghost);
+//			}
+//
+//		}
 	}
 
 	// You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
